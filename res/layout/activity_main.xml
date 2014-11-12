@@ -27,7 +27,7 @@
         android:layout_height="200dp"
         android:layout_above="@+id/editText1"
         android:layout_alignParentLeft="true"
-        android:src="@drawable/ShowScoutFull" />
+        android:src="@drawable/showscoutfull" />
 
     <EditText
         android:id="@+id/editText1"
@@ -58,7 +58,7 @@
         android:layout_above="@+id/button1"
         android:layout_alignLeft="@+id/imageView1"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/customBorder"
+        android:background="@drawable/customborder"
         android:orientation="horizontal" >
 
         <LinearLayout
