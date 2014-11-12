@@ -22,11 +22,13 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int customborder=0x7f020000;
-        public static final int greenbutton=0x7f020001;
-        public static final int ic_launcher=0x7f020002;
-        public static final int microphone=0x7f020003;
-        public static final int showscoutfull=0x7f020004;
+        public static final int blankalbum=0x7f020000;
+        public static final int customborder=0x7f020001;
+        public static final int greenbutton=0x7f020002;
+        public static final int ic_launcher=0x7f020003;
+        public static final int microphone=0x7f020004;
+        public static final int showscoutfull=0x7f020005;
+        public static final int ticket=0x7f020006;
     }
     public static final class id {
         public static final int action_settings=0x7f08000d;
@@ -47,18 +49,22 @@ public final class R {
     public static final class layout {
         public static final int activity_loading=0x7f030000;
         public static final int activity_main=0x7f030001;
+        public static final int activity_scouted=0x7f030002;
     }
     public static final class menu {
         public static final int loading=0x7f070000;
         public static final int main=0x7f070001;
+        public static final int scouted=0x7f070002;
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
         public static final int app_name=0x7f050000;
+        public static final int distance=0x7f050007;
         public static final int hello_world=0x7f050001;
         public static final int load=0x7f050005;
         public static final int loading=0x7f050004;
         public static final int title_activity_loading=0x7f050003;
+        public static final int title_activity_scouted=0x7f050006;
     }
     public static final class style {
         /** 

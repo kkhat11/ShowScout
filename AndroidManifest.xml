@@ -26,6 +26,10 @@
             android:name=".Loading"
             android:label="@string/title_activity_loading" >
         </activity>
+        <activity
+            android:name=".Scouted"
+            android:label="@string/title_activity_scouted" >
+        </activity>
     </application>
 
 </manifest>
