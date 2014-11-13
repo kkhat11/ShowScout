@@ -1,7 +1,9 @@
 package com.example.showscout;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -17,6 +19,9 @@ public class Loading extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.loading, menu);
+		SystemClock.sleep(7000);
+		Intent i = new Intent(this, Scouted.class);
+		startActivity(i);
 		return true;
 	}
 

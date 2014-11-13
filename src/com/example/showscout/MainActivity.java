@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
     
     public void rankLoading(View v)
     {
-    	Intent i = new Intent(this, Loading.class);
+    	Intent i = new Intent(this, Scouted.class);
     	startActivity(i);
     }
 }
