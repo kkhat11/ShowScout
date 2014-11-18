@@ -9,5 +9,7 @@
     <string name="load">Loading</string>
     <string name="title_activity_scouted">Scouted</string>
     <string name="distance">Distance</string>
+    <string name="distance_string">Distance:</string>
+    <string name="cost">Cost</string>
 
 </resources>
